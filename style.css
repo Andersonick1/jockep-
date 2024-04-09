@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+body{
+    background-image: url("./rockspaper.jpg");
+    color: #ffffff;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+h1 {
+    color: black;
+}
+
+.container {
+    padding: 20px;
+    
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 45px;
+}
+
+button{
+    padding: 20px;
+    font-size: 80px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#rock{
+    background-color: maroon;
+    
+}
+
+#peper{
+    background-color:darkgray;
+}
+
+#scissors{
+    background-color: green;
+}
+
+h2{
+font-weight: bold;
+margin-bottom: 10px;
+color: black;
+}
+
+
+.your-score span {
+    color: rgb(17, 52, 23);
+
+}
+
+.machine-score span {
+    color: rgb(143, 7, 7);
+}
+
+}
